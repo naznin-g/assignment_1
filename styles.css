@@ -5,7 +5,7 @@
     font-family: Inter, sans-serif;
 }
 
-body {
+header {
     background: url('assets/Hero-bg.png') no-repeat center center/cover;
     margin: 60px 100px;
     
@@ -64,7 +64,7 @@ body {
 .banner h1 span {
     display:block;
    /* color: #666666;*/
-    font-family: 'Raleway', sans-serif; /* Set font to Raleway */
+    font-family: 'Raleway', sans-serif; 
     font-size: 48px;
     margin-bottom: 8px;
 }
@@ -125,5 +125,233 @@ body {
     height: 100%;
     border-radius: 10px;
   }
+  .productive-users {
+    background-color: #f6f9ff;
+    padding: 60px 20px;
+    text-align: center;
+  } 
+ .container{
+    background-color: #e8eaff;
+    border-radius: 20px;
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+ }
+  .section-title {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #252432;
+  }
+  
+  
+  .stats-row {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .stat-box {
+    padding: 20px 30px;
+    border-radius: 10px;
+    min-width: 180px;
+    transition: transform 0.3s ease;
+  }
+  
+  
+  .stat-box h3 {
+    font-size: 50px;
+    color: #4e47ff;
+    margin-bottom: 5px;
+  }
+  
+  .stat-box p {
+    font-size: 20px;
+    color: #9ca0a5;
+  }
+  .contact-section {
+    padding: 60px 20px;
+    background-color: #eef2f7;
+  }
+  
+  .contact-container {
+    max-width: 2000px;
+    margin-right: auto;
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+  
+  .contact-title {
+    flex: 1 1 40%;
+  }
+  
+  .contact-title h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 60px;
+    color: #333;
+  }
+  
+  .contact-form {
+    flex: 1 1 55%;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    color: #444;
+  }
+  
+  input, textarea {
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 20px;
+    resize: vertical;
+  }
+  
+  .contact-btn {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 270px;
+    font-size: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .testimonial-section {
+    background-color: #f6f9ff;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .testimonial-title {
+    font-size: 1.8rem;
+    color: #1f1f1f;
+    margin-bottom: 40px;
+    font-weight: 600;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .testimonial-card {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    max-width: 280px;
+    text-align: left;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  }
+  
+  .stars {
+    color: #ffc107;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .testimonial-card h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 8px;
+  }
+  
+  .testimonial-card p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .reviewer-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .reviewer-info span {
+    font-weight: 500;
+    display: block;
+    font-size: 0.95rem;
+  }
+  
+  .reviewer-info small {
+    color: #999;
+    font-size: 0.8rem;
+  }
+
+  
+  .footer-section {
+    background-color: #f8f9fc; /* light background */
+    padding: 60px 20px;
+    text-align: center;
+    color: #777;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .footer-logo {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4d5eff; /* vibrant blue */
+    margin-bottom: 20px;
+  }
+  
+  .footer-description {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    line-height: 1.6;
+    color: #888;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .footer-links li a {
+    text-decoration: none;
+    font-size: 0.95rem;
+    color: #777;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-links li a:hover {
+    color: #4d5eff;
+  }
+  
+  
+
   
   
