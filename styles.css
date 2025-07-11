@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+body {
+    background: url('assets/Hero-bg.png') no-repeat center center/cover;
+    margin:50px;
+    
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:24 px 5%;
+    background-color:transparent;
+
+}    
+
+.logo {
+    font-family:Inter;
+    color:#4E47FF;
+    font-weight:700;
+    font-size: 24px;
+}
+.button{
+    background-color:#4E47FF ;
+    border:none;
+    padding:12px 24px;
+    border-radius:5px;
+    color: #ffffff;
+    text-align: center;
+   font-family: "Raleway-Bold", sans-serif;
+   font-size: 16px;
+   line-height: 150%;
+   font-weight: 700;
+   position: relative;
+   }
+/*.signup-btn:hover {
+    background-color:#e0e0e0;
+}*/
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 80px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.2;
+    text-align: center; /* Center the text within the element */
+}
+.banner h1 {
+    font-family: 'Raleway', sans-serif; /* Set font to Raleway */
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+.banner h1 span {
+    display:block;
+   /* color: #666666;*/
+    font-family: 'Raleway', sans-serif; /* Set font to Raleway */
+    font-size: 48px;
+    margin-bottom: 8px;
+}
